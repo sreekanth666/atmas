@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Atmas-Home</title>
+  <title>Login</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -25,6 +25,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/login/style.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -91,53 +92,34 @@
     <div class="container position-relative">
       <div class="row gy-5" data-aos="fade-in">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-          <h2>Welcome to <span>Atmas</span></h2>
-          <p>Select your role from below</p>
+          <h2>Login <span>Panel</span></h2>
+          <p>Login using your credentials</p>
           
         </div>
         
       </div>
     </div>
 
-    <div class="icon-boxes position-relative">
-      <div class="container position-relative">
-        <div class="row gy-4 mt-5">
-
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-person-check"></i></div>
-              <h4 class="title"><a href="login.html" class="stretched-link">Admin</a></h4>
-            </div>
+    <div class="login-form">
+      <form>
+        <h1>Login</h1>
+        <div class="content">
+          <div class="input-field">
+            <input type="email" placeholder="Email" autocomplete="nope">
           </div>
-          <!--End Icon Box -->
-
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-person"></i></div>
-              <h4 class="title"><a href="login.html" class="stretched-link">Principal</a></h4>
-            </div>
+          <div class="input-field">
+            <input type="password" placeholder="Password" autocomplete="new-password">
           </div>
-          <!--End Icon Box -->
-
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-easel"></i></div>
-              <h4 class="title"><a href="login.html" class="stretched-link">Teacher</a></h4>
-            </div>
-          </div>
-          <!--End Icon Box -->
-
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-pen"></i></div>
-              <h4 class="title"><a href="login.html" class="stretched-link">Student</a></h4>
-            </div>
-          </div>
-          <!--End Icon Box -->
-
+          <a href="#" class="link">Forgot Your Password?</a>
         </div>
-      </div>
+        <div class="action">
+          <button>Register</button>
+          <button>Sign in</button>
+        </div>
+      </form>
     </div>
+    <!-- partial -->
+      <script  src="assets/login/script.js"></script>
 
     </div>
   </section>
